@@ -4,8 +4,6 @@ function winOrLose(wins, lose = "Esse herói não sabe oque é perder"){
     console.log("O saldo de vitória do herói é de: " + winningBalance)
     console.log("Quantidade de vitórias do herói: " + wins)
     console.log("Quantidade de derrotas do herói: " + lose)
-    return winningBalance 
-
 
     //Estruturas de decisão, achando o level do herói
 
@@ -29,6 +27,6 @@ function winOrLose(wins, lose = "Esse herói não sabe oque é perder"){
     return { winningBalance, level };
 
 }
-//exibindo menssagem
+//exibindo menssagem concatenando as variaveis de números de vitórias/ derrotas e saldo de vitória mais levl do herói
 let resultado = winOrLose(210, 95);
 console.log("O Herói tem um saldo de " + resultado.winningBalance + " e está no nível de " + resultado.level + ".");
